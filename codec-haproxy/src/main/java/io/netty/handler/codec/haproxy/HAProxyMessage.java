@@ -83,6 +83,9 @@ public final class HAProxyMessage {
         checkPort(sourcePort);
         checkPort(destinationPort);
 
+
+
+
         this.protocolVersion = protocolVersion;
         this.command = command;
         this.proxiedProtocol = proxiedProtocol;
